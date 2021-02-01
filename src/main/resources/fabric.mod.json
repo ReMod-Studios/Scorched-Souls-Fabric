@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "scouls",
+  "version": "${version}",
+  "name": "Scorched Souls",
+  "description": "A Nether Update Expansion.",
+  "authors": [
+    "LePichu",
+	"Kitty Issy"
+  ],
+  "contributors": [],
+  "contact": {},
+  "license": "Apache-2.0",
+  "icon": "assets/scouls/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.remodstudios.scouls.ScorchedSouls"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "scouls.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.1",
+    "fabric": "*"
+  }
+}
